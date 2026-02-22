@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='after.css') }}">
+</head>
+<body>
+
+    <h1>Fraud Detection System</h1>
+
+    <div class="main_container">
+
+        <div class="output_box">
+            <div class="row">
+                <span class="label">Transaction Amount</span>
+                <span class="value">{{amount}}</span>
+            </div>
+
+            <div class="row">
+                <span class="label">Age</span>
+                <span class="value">{{age}}</span>
+            </div>
+
+            <div class="row">
+                <span class="label">Merchant</span>
+                <span class="value">{{merchant}}</span>
+            </div>
+
+            <div class="row">
+                <span class="label">City</span>
+                <span class="value">{{zipcodeOri}}</span>
+            </div>
+
+            <div class="row">
+                <span class="label">Transaction Time</span>
+                <span class="value">{{transaction_time}}</span>
+            </div>
+        </div>
+
+        <div class="result_box">
+            <p>{{prediction_result}}</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

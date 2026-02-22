@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* Title */
+h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Main container */
+.main_container {
+    background: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Output box layout */
+.output_box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Each row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #f4f6f9;
+}
+
+/* Left side label */
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Right side value */
+.value {
+    color: #2a5298;
+}
+
+/* Result styling */
+.result_box {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #e8f0fe;
+}
