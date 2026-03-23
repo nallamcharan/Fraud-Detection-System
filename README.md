@@ -15,6 +15,8 @@ Provide a real-time prediction web interface
 
 The system predicts whether a transaction is Fraudulent (1) or Legitimate (0) based on transaction-related features.
 
+# ⚙️ Approach Followed
+
 📊 Dataset Overview
 
 The dataset contains transaction-level data including:
@@ -36,9 +38,7 @@ The target variable:
 Fraud → 1 (Fraudulent)
 
 Fraud → 0 (Legitimate)
-
-⚙️ Approach Followed
-1️⃣ Data Preprocessing
+# 1️⃣ Data Preprocessing
 
 Handled missing values
 
@@ -50,7 +50,7 @@ OneHotEncoding / ColumnTransformer
 
 Applied full ML Pipeline to prevent data leakage
 
-2️⃣ Exploratory Data Analysis (EDA)
+# 2️⃣ Exploratory Data Analysis (EDA)
 
 Checked class imbalance
 
@@ -60,7 +60,7 @@ Identified high-risk transaction patterns
 
 Feature importance analysis
 
-3️⃣ Model Building
+# 3️⃣ Model Building
 
 Implemented multiple classification models
 
@@ -82,7 +82,7 @@ F1-Score
 
 Confusion Matrix
 
-4️⃣ Pipeline Implementation
+# 4️⃣ Pipeline Implementation
 
 Built a complete ML pipeline including:
 
@@ -100,7 +100,7 @@ Clean deployment
 
 Production-ready workflow
 
-5️⃣ Model Deployment
+# 5️⃣ Model Deployment
 
 Saved trained model using joblib
 
@@ -116,7 +116,7 @@ Deployed locally for real-time prediction
 
 Users can enter transaction details and instantly get fraud prediction.
 
-💼 Business Impact
+# 💼 Business Impact
 
 This solution can help businesses:
 
@@ -132,7 +132,7 @@ Support risk management teams
 
 Even a small increase in fraud detection accuracy can save millions in transaction-heavy businesses.
 
-🚀 Tech Stack Used
+# 🚀 Tech Stack Used
 
 Python
 
