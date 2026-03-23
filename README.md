@@ -1,8 +1,8 @@
-Fraud Detection System – Machine Learning Web App
+# Fraud Detection System – Machine Learning Web App
 🧠 Problem Statement
 
 Financial fraud is a major challenge in digital transactions. Fraudulent transactions cause significant financial losses to businesses and reduce customer trust.
-
+# Objective 
 The objective of this project is to:
 
 Detect fraudulent transactions using machine learning
