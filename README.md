@@ -17,11 +17,9 @@ Provide a real-time prediction web interface
 The system predicts whether a transaction is Fraudulent (1) or Legitimate (0) based on transaction-related features and this model generated accuracy score 97% 
 
 # Demo 
-![Uploading Screenshot 2026-03-26 205240.png…]()
+<img width="1199" height="819" alt="Screenshot 2026-03-26 205240" src="https://github.com/user-attachments/assets/b38ac547-fd96-42ff-8f0e-ebb8b89973eb" />
+
 <img width="1171" height="690" alt="Screenshot 2026-03-26 205308" src="https://github.com/user-attachments/assets/ee983334-34a6-403f-8458-a0706b516d44" />
-
-
-# ⚙️ Approach Followed : 
 
 # 🚀 Tech Stack Used
 
@@ -36,6 +34,10 @@ Flask
 HTML & CSS
 
 Joblib
+
+
+# ⚙️ Approach Followed : 
+
 
 📊 Dataset Overview
 
